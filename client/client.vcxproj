@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{63562F9C-8854-4F92-817D-8163236617F3}</ProjectGuid>
+    <ProjectGuid>{E4BAF013-04D2-4697-AB35-438039201534}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>tcp_syn</RootNamespace>
+    <RootNamespace>client</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>server</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -145,7 +144,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="server.cpp" />
+    <ClCompile Include="client.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
